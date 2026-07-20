@@ -110,7 +110,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           rel: "stylesheet",
           href: appCss,
         },
-        { rel: "icon", href: "/ogbeco.jpg", type: "image/jpeg" },
+        { rel: "icon", href: "/assets/ogbeco.jpg", type: "image/jpeg" },
       ],
     }),
     shellComponent: RootShell,
